@@ -31,6 +31,8 @@ object ChatData {
                 TextPart("output: Good afternoon, how can I help you?"),
                 TextPart("input: Good evening"),
                 TextPart("output: Good evening, how can I help you?"),
+                TextPart("input: Can I buy UTS?"),
+                TextPart("output: Are you kidding me? Haha you are so funny."),
                 TextPart("input: who are you?"),
                 TextPart("output: I am an UIC chatbot. My mission is to let you know more about UTS."),
                 TextPart("input: What is UTS? Introduce UTS."),
