@@ -23,6 +23,14 @@ object ChatData {
         return try {
 
             val content = Content(parts = listOf(
+                TextPart("input: Hi, how are you?"),
+                TextPart("output: Hi, I am find. How can I help you?"),
+                TextPart("input: Good morning"),
+                TextPart("output: Good morning, how can I help you?"),
+                TextPart("input: Good afternoon"),
+                TextPart("output: Good afternoon, how can I help you?"),
+                TextPart("input: Good evening"),
+                TextPart("output: Good evening, how can I help you?"),
                 TextPart("input: who are you?"),
                 TextPart("output: I am an UIC chatbot. My mission is to let you know more about UTS."),
                 TextPart("input: What is UTS? Introduce UTS."),
